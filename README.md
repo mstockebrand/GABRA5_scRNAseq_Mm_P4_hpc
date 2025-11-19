@@ -1,5 +1,5 @@
 # GABRA5_scRNAseq_Mm_P4_hpc
-scRNA-seq analysis of murine age P4 hippocampal dataset
+scRNA-seq analysis of murine age P4 hippocampal dataset (Liebeskind et al. 2026, Commun Biol)
 
 ### [Introduction](#Introduction-1).
 
@@ -64,7 +64,7 @@ The dataset aggregated by the cellranger pipeline was loaded and converted into 
 QC consisted of filtering cells with poor library quality based on library depth (n(detected transcripts), n(detected genes), percentage of mitochondrial content, etc.)
 
 ### doublet removal
-Doublets were removed with after detection with DoubletFinder
+Doublets were removed after detection with DoubletFinder
 
 ### sample integration
 
