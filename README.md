@@ -29,25 +29,28 @@ scRNA-seq analysis of murine age P4 hippocampal dataset
 ### expression of genes of interest
 
 ## Introduction
-We analyzed the subset of wt mice from a previously analysed scRNA-seq dataset from the human patient derived Scn2a_p.A263V mouse model for human SCN2A-associated developmental and epileptic encephalopathy (Reva et al. 2025, bioRxiv). Here, we focused on the expression of GABRA5 and related genes in wt mice at age of postnatal day (P) 4.
+We analyzed the subset of wt mice from a previously analysed scRNA-seq dataset of a human patient mutation-derived Scn2a_p.A263V mouse model for SCN2A-associated developmental and epileptic encephalopathy (Reva et al. 2025, bioRxiv). Here, we focused on the expression of GABRA5 and related genes in wildtype (wt) mice at the age of postnatal day (P) 4.
 
 ## NGS dataset
 Demultiplexing, barcodes processing, gene counting and aggregations were made using the CellRanger version XXX (10X Genomics) by the sequencing facility (Cologne Center for Genomics, part of tha West German Sequencing Center) with murine reference genome (GRCm38/mm10). 
 
 ### dataset overview and pre-QC parameters
 
-| Sample | genotype: Scn2a_p.A263V | no. of cells | total reads | Ø reads /cell | median genes /cell | median UMI counts /cell |
-| :---: | :---: | :---: | --- | :---: | :---: |------------- |
-| **1** | mut/mut | 1,316 | 125,560,642 | 95,411 | 6,622 | 38,745 | 
-| **2** | wt/wt | 3,101 | 270,454,600 | 87,215 | 6,286 | 31,056 | 
-| **3** | mut/wt | 3,818 | 309,772,057 | 81,135 | 6,404 | 32,473 | 
-| **4** | wt/wt  | 1,348	| 116,983,834 | 86,783 | 6,496 | 36,345 | 
-| **5** | mut/wt | 4,271 | 421,293,097 | 98,640 | 6,611 | 36,201 | 
-| **6** | wt/wt  | 3,302 | 285,222,272 | 86,379 | 6,468 | 34,010 | 
-| **7** | mut/wt | 4,616 | 339,856,499 | 73,626 | 6,253 | 31,347 | 
-| **8** | mut/mut | 2,454 | 193,989,579 | 79,050 | 6,588 | 33,960 | 
-| **9** | wt/wt  | 2,454 | 193,989,579 | 79,050 | 6,588 | 33,960 | 
-| **10** | mut/wt | 2,454 | 193,989,579 | 79,050 | 6,588 | 33,960 | 
+| Sample | genotype: Scn2a_p.A263V | no. of cells | total reads | Ø reads /cell | median genes /cell | median UMI counts /cell | batch  |
+| :---: | :---: | :---: | --- | :---: | :---: | :-------------: | :---: |
+| **1** | mut/mut | 3,806 | 175,773,979 | 46,183 | 3,884 | 12,976 | 1 | 
+| **2** | **wt/wt** | 3,362 | 153,336,015 | 45,609 | 3,458 | 10,801 | 1 | 
+| **3** | wt/mut | 3,978 | 185,148,542 | 46,543 | 3,610 | 11,270 | 1 | 
+| **4** | **wt/wt** | 2,531 | 132,854,755 | 52,491 | 3,839 | 12,149 | 2 | 
+| **5** | wt/mut | 3,158 | 175,474,788 | 55,565 | 4,142 | 13,950 | 2 | 
+| **6** | **wt/wt** | 3,870 | 189,599,838 | 48,992 | 3,730 | 11,801 | 3 | 
+| **7** | wt/mut | 5,903 | 292,842,049 | 49,609 | 3,721 | 11,626 | 3 | 
+| **8** | mut/mut | 3,607 | 197,687,623 | 54,807 | 3,651 | 11,355 | 3 | 
+| **9** | **wt/wt** | 3,330 | 192,664,644 | 57,857 | 3,975 | 12,973 | 3 | 
+| **10** | wt/mut | 4,644 | 262,851,819 | 56,600 | 3,850 | 12,308 | 3 | 
+
+total of **13,093 wt cells**
+
 
 ## Analysis workflow
 scRNA-seq data analysis consisted of the following steps
