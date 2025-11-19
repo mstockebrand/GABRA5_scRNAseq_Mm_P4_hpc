@@ -9,7 +9,7 @@ scRNA-seq analysis of murine age P4 hippocampal dataset
 
 ## [scRNA-seq data analysis](#analysis-workflow)
 
-### [dataset aggregation](#dataset-aggregation-1)
+### [load and adjust dataset](#load-and-adjust-dataset-1)
 
 ### [QC](#qc-1)
 
@@ -57,7 +57,7 @@ total of **13,093 wt cells**
 ## Analysis workflow
 scRNA-seq data analysis consisted of the following steps
 
-### dataset aggregation
+### load and adjust dataset
 
 ### QC
 
