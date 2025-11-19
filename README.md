@@ -58,16 +58,21 @@ total of **13,093 wt cells**
 scRNA-seq data analysis consisted of the following steps
 
 ### load and adjust dataset
+The dataset aggregated by the cellranger pipeline was loaded and converted into a Seurat object. Metadata was updated with sample information and some QC-parameters.
 
 ### QC
+QC consisted of filtering cells with poor library quality based on library depth (n(detected transcripts), n(detected genes), percentage of mitochondrial content, etc.)
 
 ### doublet removal
+Doublets were removed with after detection with DoubletFinder
 
 ### sample integration
 
 #### normalization, transformation dimensionality reduction
+For clustering SCT normalization was performed, for plotting gene expression, we used log1p-normalization.
 
 #### integration of samples
+We chose CCA-Integration method.
 
 ### clustering
 
