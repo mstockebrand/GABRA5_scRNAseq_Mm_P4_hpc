@@ -29,10 +29,12 @@ scRNA-seq analysis of murine age P4 hippocampal dataset
 ### expression of genes of interest
 
 ## Introduction
-We analyzed the subset of wt mice from a previously analysed scRNA-seq dataset of a human patient mutation-derived Scn2a_p.A263V mouse model for SCN2A-associated developmental and epileptic encephalopathy (Reva et al. 2025, bioRxiv). Here, we focused on the expression of GABRA5 and related genes in wildtype (wt) mice at the age of postnatal day (P) 4.
+We analyzed the subset of wt mice from a previously analysed scRNA-seq dataset of a human patient mutation-derived Scn2a_p.A263V mouse model for SCN2A-associated developmental and epileptic encephalopathy (Reva et al. 2025, bioRxiv). Here, we focused on the expression of GABRA5 and related genes in wildtype (wt) mice at the age of postnatal day (P) 4 (Liebeskind et al. 2026, Commun Biol).
+
+The dataset is available from EMBL-EBI's BioStudies database (http://www.ebi.ac.uk/biostudies) under accession number E-MTAB-15970 (https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-15970).
 
 ## NGS dataset
-Demultiplexing, barcodes processing, gene counting and aggregations were made using the CellRanger version XXX (10X Genomics) by the sequencing facility (Cologne Center for Genomics, part of tha West German Sequencing Center) with murine reference genome (GRCm38/mm10). 
+Single cells were prepared from acute brain slices with a papain dissociation system (Worthington) and universal 3' gene expression library prep was performed with sc 3'  Demultiplexing, barcodes processing, gene counting and aggregations were performed with CellRanger version 4.00 (10X Genomics) by the sequencing facility (Cologne Center for Genomics, part of tha West German Sequencing Center) with murine reference genome (GRCm38/mm10). For this analysis we used the cell ranger aggregated ten sample containing dataset which required only minor adjustments during aggregation for normalizing the effective sequencing depth by downsampling (fraction of reads kept between 81 - 100% with mean ± s.d. = 91.9% ± 5.9%). 
 
 ### dataset overview and pre-QC parameters
 
