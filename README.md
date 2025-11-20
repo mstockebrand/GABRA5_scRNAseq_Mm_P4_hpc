@@ -20,11 +20,11 @@ scRNA-seq analysis of murine age P4 hippocampal dataset (Liebeskind et al. 2026,
 
 ### clustering
 
-### cluster refinement
-
-### marker identification and selection
+##### marker identification and selection
 
 ### cell type assignment
+
+##### cell type refinement
 
 ### expression of genes of interest
 
@@ -52,6 +52,7 @@ Single cells were prepared from acute brain slices with a papain dissociation sy
 | **10** | wt/mut | 4,644 | 262,851,819 | 56,600 | 3,850 | 12,308 | 3 | 
 
 total of **13,093 wt cells**
+We continue with the total dataset and subset wt dataset from the final integrated, cell type-assigned datast for genotype-phenotypic characterization to be performed elsewhere.
 
 
 ## Analysis workflow
