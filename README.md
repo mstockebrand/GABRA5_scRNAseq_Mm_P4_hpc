@@ -20,13 +20,13 @@ scRNA-seq analysis of murine age P4 hippocampal dataset (Liebeskind et al. 2026,
 
 ### [clustering](#clustering-1)
 
-##### marker identification and selection
+##### molecular marker - identification and expression
 
-### cell type assignment
+### [cell type assignment](#cell-type-assignment-1)
 
 ##### cell type refinement
 
-### expression of genes of interest
+### [expression of genes of interest](#expression-of-genes-of-interest-1)
 
 ## Introduction
 We analyzed the subset of wt mice from a previously analysed scRNA-seq dataset of a human patient mutation-derived Scn2a_p.A263V mouse model for SCN2A-associated developmental and epileptic encephalopathy (Reva et al. 2025, bioRxiv). Here, we focused on the expression of GABRA5 and related genes in wildtype (wt) mice at the age of postnatal day (P) 4 (Liebeskind et al. 2026, Commun Biol).
@@ -77,9 +77,11 @@ We chose CCA-Integration method.
 
 ### clustering
 
-#### cluster refinement
+#### molecular marker - identification and expression
 
-#### marker identification and cell type assignment
+### cell type assignment
+
+#### cell type refinement
 
 ### expression of genes of interest
 
