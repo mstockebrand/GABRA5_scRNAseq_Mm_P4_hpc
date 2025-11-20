@@ -18,7 +18,7 @@ scRNA-seq analysis of murine age P4 hippocampal dataset (Liebeskind et al. 2026,
 ### [sample integration](#sample-integration-1)
   #### normalization, transformation, dimensionality reduction
 
-### clustering
+### [clustering](#clustering-1)
 
 ##### marker identification and selection
 
