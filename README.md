@@ -1,5 +1,5 @@
 # GABRA5_scRNAseq_Mm_P4_hpc
-**scRNA-seq analysis of mpoue age postnadal day (P)4 hippocampal dataset** (Liebeskind et al. submitted to Commun Biol Dec 2025)
+**scRNA-seq analysis of mpoue age postnadal day (P)4 hippocampal dataset** (Liebeskind et al. submitted to Commun Biol, Dec 2025)
 
 ### [Introduction](#Introduction-1)
 
