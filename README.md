@@ -9,7 +9,7 @@ scRNA-seq analysis of murine age P4 hippocampal dataset (Liebeskind et al. 2026,
 
 ## [scRNA-seq data analysis](#analysis-workflow)
 
-### [load and adjust dataset](#load-and-adjust-dataset-1)
+### [dataset loading and adjustment](#dataset-loading-and-adjustment-1)
 
 ### [QC](#qc-1)
 
@@ -56,9 +56,10 @@ We continue with the total dataset and subset wt dataset from the final integrat
 
 
 ## Analysis workflow
-scRNA-seq data analysis consisted of the following steps
+scRNA-seq data analysis was performed in R with package Seurat and packages within (Hao et al. 2023 Nat Biotechnol, https://doi.org/10.1038/s41587-023-01767-y, https://satijalab.org/seurat/). 
+It consisted of the following steps
 
-### load and adjust dataset
+### dataset loading and adjustment
 The dataset aggregated by the cellranger pipeline was loaded and converted into a Seurat object. Metadata was updated with sample information and some QC-parameters.
 
 ### QC
