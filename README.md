@@ -65,7 +65,7 @@ The dataset aggregated by the cellranger pipeline was loaded and converted into 
 QC consisted of filtering cells with poor library quality based on library depth (n(detected transcripts), n(detected genes), percentage of mitochondrial content, etc.)
 
 ### doublet removal
-Doublets were removed after detection with DoubletFinder
+Doublets were removed after detection with DoubletFinder (McGinnis et al. 2019, Cell Syst: https://doi.org/10.1016/j.cels.2019.03.003, https://github.com/chris-mcginnis-ucsf/DoubletFinder)
 
 ### sample integration
 
