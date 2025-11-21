@@ -1,7 +1,7 @@
 # GABRA5_scRNAseq_Mm_P4_hpc
 scRNA-seq analysis of murine age P4 hippocampal dataset (Liebeskind et al. submitted to Commun Biol Dec 2025)
 
-### [Introduction](#Introduction-1).
+### [Introduction](#Introduction-1)
 
 ### [NGS dataset](#NGS-dataset-1)
 
